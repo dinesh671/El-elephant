@@ -1,0 +1,185 @@
+body {
+  /*font-family: 'Inter', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6{
+	font-family: 'Prata', serif;
+}
+a{text-decoration: none;}
+/*.f-light {
+  font-weight: 300;
+}
+.f-medium {
+  font-weight: 500;
+}
+.f-bold {
+  font-weight: 600;
+}*/
+.cp-xl{
+	padding:80px 15px;
+}
+.cp-lg{
+	padding:60px 15px;
+}
+.cp-md{
+	padding: 30px 13px;
+}
+.cp-sm{
+	padding:10px 15px;
+}
+.logo{
+	width:260px;
+}
+.bg-white-50{
+	background: rgba(255,255,255,0.95);
+}
+.bg-dark-50{
+	background: rgba(0,0,0,0.8);
+}
+.navbar-dark .navbar-nav .nav-link{
+	text-transform: uppercase;
+	color:#cc9664!important;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #ffffff!important;
+}
+.dropdown-menu{
+	background:#cc9664;
+}
+.dropdown-item{
+	text-transform:uppercase; 
+	font-weight: bold; 
+	font-size:14px;
+	color: #000000;
+}
+.dropdown-item:hover{
+	background:#000000;
+	color: #cc9664;
+}
+.cat-name{
+	position:absolute;
+	bottom: 15px;
+	background: rgba(0,0,0,0.7);
+	width:100%;
+	padding: 10px 15px;
+	font-family: 'Prata', serif;
+}
+.footer-bg{
+	background:url("../assests/footer-bg.jpeg") no-repeat center center fixed;
+	background-size: cover;
+}
+.footer{
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	height:auto;
+}
+.header-bg{
+	background:url("../assests/header-bg.jpeg") no-repeat top center fixed;
+	background-size: cover;
+}
+.header{
+	font-family: 'Prata', serif;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	height:250px;
+	line-height: 300px;
+	font-size: 4em;
+}
+.m-menu{display:none;}
+.elephant-bg{
+	background:url("../assests/elephant-bg.jpg") no-repeat left center;
+	background-size:cover;
+}
+.leather-bg{
+	background:url("../assests/the-leather-2.jpg") no-repeat top center;
+	background-size:cover;
+}
+.theme-color{
+	color: #cc9664;
+}.theme-color:hover{
+	color: #cc9664;
+}
+.mission-believe{
+	background: url("../assests/mission-believe.jpg") no-repeat center center;
+	background-size: cover;
+}
+.leather-guide-bg{
+	background: url("../assests/leather-buying-bg.jpg") no-repeat center center;
+	background-size: cover;
+}
+.craftmanship-bg, .core-value{
+	background: url("../assests/craftmanship-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.tol-bg{
+	background: url("../assests/types-of-leather-bg.png") no-repeat top center scroll;
+	padding-top: 330px;
+}
+.wwa{
+	background: url("../assests/wwa.jpg") no-repeat center center;
+	background-size: cover;
+}
+.leather-quality-bg{
+	background: url("../assests/leather-quality-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+#product .item{
+}
+.customNavigation{
+	position:absolute;
+	z-index: 999;
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+	text-align: right;
+}
+.customNavigation a{
+  width:30px;
+	height:30px;
+}
+@media only screen and (max-width: 600px) {
+	.m-menu{display:block;}
+	.d-menu{display:none;}
+	.drawer-nav {
+	  z-index: 999;
+	}
+	.drawer-navbar .drawer-nav {
+	  padding-top: 20px;
+	}
+	.drawer-navbar .drawer-menu {
+	  padding-bottom: 0px;
+	}
+	.drawer-menu-item {
+	  padding: 5px 15px;
+	}
+	/*body{padding-top:100px;}*/
+	.logo{max-width:220px;}
+	.header{
+		height:150px;
+		line-height: 150px;
+		font-size: 1.8em;
+	}
+	.bg-dark-50{
+		background: #191919;
+	}
+	.leather-bg{
+		background:url("../assests/the-leather-2.jpg") no-repeat top left;
+		background-size:cover;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	.black-alpha-bg{
+		background:rgba(0,0,0,0.6);
+	}
+	.cp-xl{
+		padding:30px 15px;
+	}
+}
