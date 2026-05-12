@@ -36,7 +36,7 @@
 			  <div class="h4 mb-4"><em>“Without craftsmanship, inspiration is a mere deed shaken in the wind” – Johannes Brahms</em></div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 align-self-center">
-				<img src="assests/craftmanship-img.jpg" class="img-fluid img-thumbnail shadow">
+				<img src="/assests/craftmanship-img.jpg" class="img-fluid img-thumbnail shadow">
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 				<p>All our leather products are handcrafted by professional skilled artisans with years of experience. Traditional skills and techniques passed down through family generations are used to create pieces that last through the ages. We focus on the best quality and design and make sure that our products should be durable and sustainable too.</p>

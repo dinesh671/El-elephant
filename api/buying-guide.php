@@ -49,7 +49,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
-				<p><img src="assests/quality-of-leather-1.png" class="img-fluid"></p>				
+				<p><img src="/assests/quality-of-leather-1.png" class="img-fluid"></p>				
 			</div>
 			<div class="col-xl-7 col-lg-7  col-md-7 col-sm-12 col-12 align-self-center mb-4">
 				<div class="card mb-4 shadow-sm" style="background: #3e362b;">
@@ -156,7 +156,7 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
 				<p>Below figure explains the classification more clearly</p>
-				<p><img src="assests/leather-quality.png" class="img-fluid shadow" width="350"></p>
+				<p><img src="/assests/leather-quality.png" class="img-fluid shadow" width="350"></p>
 			</div>
 			<div class="col-12">
 				<p>Finally, knowing exactly how to take a raw hide and process it through tanning

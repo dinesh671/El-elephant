@@ -34,7 +34,7 @@
 <div class="container-fluid core-value">
 	<div class="container cp-xl">
 	  <div class="row">
-		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"> <img src="assests/core-values.png" class="img-fluid"> </div>
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"> <img src="/assests/core-values.png" class="img-fluid"> </div>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 			<div class="h1 mb-4">Our Core Values</div>
 		  <ul class="mb-5">

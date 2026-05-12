@@ -1,15 +1,12 @@
 {
-  "builds": [
-    { "src": "index.php", "use": "vercel-php@0.7.1" },
-    { "src": "contact-us.php", "use": "vercel-php@0.7.1" },
-    { "src": "who-we-are.php", "use": "vercel-php@0.7.1" },
-    { "src": "mission-and-values.php", "use": "vercel-php@0.7.1" },
-    { "src": "buying-guide.php", "use": "vercel-php@0.7.1" },
-    { "src": "products.php", "use": "vercel-php@0.7.1" }
-  ],
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*).php", "dest": "/$1.php" },
-    { "src": "/(.*)", "dest": "/index.php" }
+    { "src": "/(.*).php", "dest": "/api/$1.php" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
