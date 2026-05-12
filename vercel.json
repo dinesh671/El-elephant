@@ -8,6 +8,7 @@
     { "src": "products.php", "use": "vercel-php@0.7.1" }
   ],
   "routes": [
+    { "handle": "filesystem" },
     { "src": "/(.*).php", "dest": "/$1.php" },
     { "src": "/(.*)", "dest": "/index.php" }
   ]
